@@ -14,7 +14,7 @@
 		<table>
 			<tr>
 				<td><label for="name">Name</label></td>
-				<td><input type ="Text" required="yes" id="name" Required="yes"></td>
+				<td><input type ="Text" id="name" required="yes"></td>
 			</tr>
 			<tr>
 				<td><label for="email">Email</label></td>
@@ -22,12 +22,14 @@
 			</tr>
 			<tr>
 				<td><label for="gender">Gender</label></td>
-				<td><input name="gender" type ="Radio" required="yes"</td>
+				<td>
+				<input name="gender" type ="Radio" required="yes" id="male">Male
+				<input name="gender" type ="Radio" required="yes" id="female">Female
+				</td>
 			</tr>
 			<tr>
 				<td><label for="cars">Car Brands</label></td>
 				<td><Select  required="no" id="cars" placeholder="--Please choose an option--" >
-						<option value="0"</option>
 					<option value="1">BMW</option>
 					<option value="2">Audi</option>
 					<option value="3">Mercedez</option>
@@ -38,8 +40,8 @@
 				<td><label for="carage">Car Age</label></td>
 				<td><input type ="Number"  required="yes" id="carage"></td>
 	<tr>
-				<td><label for="dob">dob</label></td>
-				<td><input type ="Date"  required="yes" id="dob" ></td>
+				<td><label for="dob">Date of Purchase (dop)</label></td>
+				<td><input type ="Date"  required="yes" id="dop" ></td>
 			</tr>
 	<tr>
 				
